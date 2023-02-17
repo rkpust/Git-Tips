@@ -12,8 +12,8 @@ Git Practices
   git config --global user.name "Your Name"
   ```
   
-  # Add File & Remove
-  For All File Replace FileName by .
+# Add File & Remove
+For All File Replace FileName by .
 - ### To Add File
   ```bash
   git add "FileName"
