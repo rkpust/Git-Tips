@@ -22,6 +22,15 @@ For All File Replace FileName by .
   ```bash
   git restore --staged "FileName"
   ```
+  # OS changed but user same
+When our OS is changed but user and directory is same.
+- ### To add an exception for this directory
+  ```bash
+  git config --global --add safe.directory 'Directory With Path'
+  ```
+
+  
+  
   
   ## Authors
 
