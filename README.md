@@ -22,6 +22,14 @@ For All File Replace FileName by .
   ```bash
   git restore --staged "FileName"
   ```
+  
+  # Undo Last Commit
+Undo last commit without file staged condition.(Only for local/offline repository)
+- ### Undo Last Commit without file staged condition.
+  ```bash
+  git reset --soft HEAD^
+  ```
+  
 # OS changed but user same
 When our OS is changed but user and directory is same.
 - ### To add an exception for this directory
