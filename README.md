@@ -38,7 +38,12 @@ When our OS is changed but user and directory is same.
   ```
 then, add email and user name.
   
-  
+# To Clean/Remove Untracked/Uncommit File
+ This command is recursive and cleans both the current directory and any subdirectories.
+- ### To Remove File
+  ```bash
+  git clean -f -d
+  ``` 
   
   ## Authors
 
