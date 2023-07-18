@@ -44,6 +44,12 @@ then, add email and user name.
   ```bash
   git clean -f -d
   ``` 
+# To Update File From Remote Repo To Local Repo
+ This command will help when remote repo has changed as well as we need to change in local repo.
+- ### To change in local repo
+  ```bash
+  git pull
+  ```
   
   ## Authors
 
