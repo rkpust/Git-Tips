@@ -50,7 +50,12 @@ then, add email and user name.
   ```bash
   git pull
   ```
-  
+# To discard local changes to all files, permanently
+ This command will help when local repo has changed as well as we not need to change in remote repo.
+- ### To discard local changes
+  ```bash
+  git reset --hard
+  ```
   ## Authors
 
   - [@rkpust](https://www.github.com/rkpust)
