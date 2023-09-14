@@ -56,6 +56,18 @@ then, add email and user name.
   ```bash
   git reset --hard
   ```
+
+  # Unable to connect to github.com port 443
+  When below command run,then given below error shows
+  ```bash
+  git push origin master
+  ```
+  fatal: unable to access 'https://github.com/rkpust/PostgreSQL.git/': Failed to connect to github.com port 443 after 21093 ms: Couldn't connect to server
+- ### To access port
+  ```bash
+  git config --global http.proxy ""
+  ```
+
   ## Authors
 
   - [@rkpust](https://www.github.com/rkpust)
