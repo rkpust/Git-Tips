@@ -29,7 +29,12 @@ Undo last commit without file staged condition.(Only for local/offline repositor
   ```bash
   git reset --soft HEAD^
   ```
-  
+
+# Branch Tips
+- ### To Create New Branch
+  ```bash
+  git branch branch-name
+  ```
 # OS changed but user same
 When our OS is changed but user and directory is same.
 - ### To add an exception for this directory
