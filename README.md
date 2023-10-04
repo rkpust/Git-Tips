@@ -40,6 +40,11 @@ Undo last commit without file staged condition.(Only for local/offline repositor
   ```bash
   git checkout branch-name
   ```
+- ### To create a new branch and switch to it at the same time
+  ```bash
+  git checkout -b branch-name
+  ```
+  
 # OS changed but user same
 When our OS is changed but user and directory is same.
 - ### To add an exception for this directory
