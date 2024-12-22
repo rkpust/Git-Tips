@@ -22,6 +22,12 @@ For All File Replace FileName by .
   ```bash
   git restore --staged "FileName"
   ```
+
+- ### Ensure venv Is Not Already Tracked by Git
+  If the venv folder was already tracked by Git before adding it to .gitignore, you'll need to remove it from Git's tracking. Run the following command:
+  ```bash
+  git rm -r --cached venv/
+  ```
   
   # Undo Last Commit
 Undo last commit without file staged condition.(Only for local/offline repository)
