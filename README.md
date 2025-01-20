@@ -35,6 +35,11 @@ Undo last commit without file staged condition.(Only for local/offline repositor
   ```bash
   git reset --soft HEAD^
   ```
+  or
+  
+  ```bash
+  git reset --soft HEAD~1
+  ```
 
 # Branch Tips
 - ### To Create New Branch
