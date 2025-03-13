@@ -23,10 +23,13 @@ For All File Replace FileName by .
   git restore --staged "FileName"
   ```
 
-- ### Ensure venv Is Not Already Tracked by Git
-  If the venv folder was already tracked by Git before adding it to .gitignore, you'll need to remove it from Git's tracking. Run the following command:
+- ### Ensure venv, __pycache__ Are Already Tracked by Git
+  If the venv, __pycache__  folder were already tracked by Git or push on github before adding it to .gitignore, you'll need to remove it from Git's tracking. Run the following command:
   ```bash
   git rm -r --cached venv/
+  ```
+  ```bash
+  git rm --cached transcriber/__pycache__/*
   ```
   
   # Undo Last Commit
